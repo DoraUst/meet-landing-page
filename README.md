@@ -1,4 +1,4 @@
-# "Meet Landing Page" is a Junior challenge from [Frontend Mentor](https://www.frontendmentor.io/home).
+# "Meet Landing Page" is a challenge from [Frontend Mentor](https://www.frontendmentor.io/home).
 
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/95a5e2b3-e6b8-4774-9634-735985215230" />
 
