@@ -1,0 +1,459 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 80px 80px 0 80px;
+
+}
+
+.top {
+    padding: 64px 80px 64px 80px;
+    gap: 8px;
+}
+
+.top-container {    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.image-hero {
+    display: none;
+}
+
+.top-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    gap: 32px;    
+}
+
+.top-text h1 {
+    display: flex;
+    text-align: center;
+    color: #28283D;
+    font-size: 64px;
+    max-height: 140px;
+    max-width: 448.3px;
+    margin: 0;
+}
+
+
+.top-text p {
+    display: flex;
+    text-align: center;
+    max-height: 54px;
+    max-width: 448px;
+    color: #87879D;
+    font-size: 18px;
+}
+
+.topButtons {
+    display: flex;
+    gap: 17px;
+    font-weight: 600;
+}
+
+.top .download {
+    background-color: #4D96A9;
+    color: white;
+    border: solid 2px #4D96A9;
+    border-radius: 29px;
+    padding: 16px 40px 16px 40px;
+}
+
+.top .info {
+    background-color: #855FB1;
+    color: white;
+    border: solid 2px #855FB1;
+    border-radius: 29px;
+    padding: 16px 40px 16px 40px;
+    font-weight: 300;
+}
+
+.download .top-span {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.picture-top-left {
+    position: absolute;
+    left: -25px;
+}
+
+.picture-top-right {
+    position: absolute;
+    right: -25px;
+    
+}
+
+.middle .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border: solid 2px #D1D1DF;
+    border-radius: 50%;
+    font-size: 16px;
+}
+
+.middle {
+    padding: 56px 80px 72px 80px;
+    gap: 64px;
+    color: #87879D;
+}
+
+.middle-container {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+}
+
+.middle .smallMiddleText {
+    color: #4D96A9;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 600;
+}
+
+.middleImages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin: auto;
+    padding: 64px 0 64px 0;
+}
+
+.middleImages img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.middle h2 {
+    max-width: 445px;
+    max-height: 88px;
+    color: #28283D;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.middleText {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    max-width: 81px;
+    max-width: 544px;
+}
+
+.bottom {
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(88, 154, 171, 0.9), rgba(88, 154, 171, 0.9)), url(assets/desktop/image-footer.jpg);
+}
+
+.bottom-container {
+    display: flex;
+    max-width: 1440px;
+    min-height: 312px;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.bottom-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -32px;
+}
+
+.bottom-text h2 {
+    display: flex;
+    font-size: 40px;
+    max-width: 445px;
+}
+
+.bottom-text p {
+    display: flex;
+    max-width: 355px;
+    max-height: 81px;
+    font-size: 18px;
+}
+
+.downloadBottom {
+    background-color: #855FB1;
+    font-size: 16px;
+    color: white;
+    font-weight: 300;
+    border: solid 2px #855FB1;
+    border-radius: 29px;
+    padding: 16px 40px 16px 40px;
+}
+
+.downloadBottom span {
+    justify-content: center;
+    position: relative;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.frame {
+    display: flex;
+    width: 256px;
+    align-items: end;
+    gap: 8px;
+    margin-left: 60px;
+    margin-top: -8px;
+}
+
+.bottom-container .number {
+    display: flex;
+    color: #87879D;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: solid 2px #D1D1DF;
+    border-radius: 50%;
+    margin-top: -32px;
+    height: 56px;
+    width: 56px;
+}
+
+.bottom .vertical {
+    display: flex;
+    position: relative;
+    border: solid 1px black;
+    height: 30px;
+}
+
+.number {
+    position: relative;
+    margin-top: 82px;
+    font-size: 16px;
+}
+
+.number::before {
+    content: "";
+    position: absolute;
+    background-color: #D1D1DF;
+    width: 1px;
+    height: 80px;
+    top: -80px;
+}
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 48px 80px 0 80px;
+    }
+
+    .top-pictures {
+        display: none;
+    }
+
+    .image-hero {
+        display: block;
+        width: 820px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-bottom: 40px;
+    }
+
+    .top {
+        padding: 64px 32px 64px 32px;
+    }
+
+    .top-container {
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .top-text {
+        display: flex;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .top h1 {
+        font-size: 48px;
+        width: 448.3px;
+        height: 106px;
+    }
+
+    .top-text p {
+        width: 448.3px;
+        height: 48px;
+    }
+
+    .middleImages {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        gap: 24px;
+    }
+
+    .middle {
+        gap: 64px;
+        padding: 10px 32px 64px 32px;
+    }
+
+    .middleText {
+        width: 504px;
+        height: 215px;
+        padding-bottom: 40px;
+    }
+
+    .middleText p {
+        font-size: 16px;
+        max-height: 72px;
+        max-width: 504px;
+    }
+
+
+    .bottom {
+        color: white;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: linear-gradient(rgba(88, 154, 171, 0.9), rgba(88, 154, 171, 0.9)), url(assets/tablet/image-footer.jpg);
+    }
+
+    .bottom-container {
+        padding-bottom: 64px;
+    }
+
+    .bottom-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 24px;
+        margin: 0;
+    }
+
+    .bottom-text h2 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .bottom-text p {
+        font-size: 16px;
+        margin: 0;
+        max-height: 48px;
+        max-width: 504px;
+    }
+
+    .titleBottom {
+        gap: 16px;
+    }
+    
+    .middle .smallMiddleText {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .downloadBottom {
+        gap: 4px;
+        margin: 0;
+    }
+
+    .frame {
+        margin: 0;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 375px) {
+
+    .top {
+        padding: 64px 32px 32px 32px;
+    }
+
+    .top h1 {
+        width: 100%;
+        height: auto;
+        font-size: 32px;
+    }
+
+    .top-text p {
+        width: 100%;
+        height: auto;
+        max-width: 311px;
+    }
+
+    .top-container {
+        overflow: hidden;
+    }
+
+    .image-hero {
+        display: block;
+        max-width: 433px;
+        max-height: 160px;
+        left: 50%;
+        transform: translateX(-50%);
+        position: relative;
+    }
+
+    .topButtons {
+        flex-direction: column;
+    }
+
+    .middleImages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .middle {
+        padding: 10px 24px 64px 24px;
+    }
+
+    .middle .smallMiddleText {
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .middle p {
+        font-size: 16px;
+        font-weight: 600;
+        max-width: 311px;
+    }
+
+    .middle h2 {
+        font-size: 28px;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+
+    .bottom-text h2 {
+        font-size: 28px;
+        max-width: 280px;
+    }
+
+    .bottom {
+        background: linear-gradient(rgba(88, 154, 171, 0.9), rgba(88, 154, 171, 0.9)), url(assets/mobile/image-footer.jpg);
+    }
+
+}
